@@ -15,6 +15,7 @@ mkdir build && cd build
 cmake ..
 cmake --build .
 ```
+Then you have binary h88k-qt-panel at build dir.
 ### Tips
 You may need to install some qt deps before running `cmake ..`
 
@@ -24,7 +25,7 @@ You may need to install some qt deps before running `cmake ..`
 ```
 [Desktop Entry]
 Name=H88K QT Panel
-Exec=env QT_QPA_PLATFORM=wayland /home/jfliu/h88k-qt-panel
+Exec=env QT_QPA_PLATFORM=wayland /path/to/h88k-qt-panel
 Terminal=false
 Type=Application
 Categories=Utility;
